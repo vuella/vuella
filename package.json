@@ -1,0 +1,29 @@
+{
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "pnpm@9.6.0",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky && echo \"pnpm lint-staged\" > .husky/pre-commit && echo \"pnpm commitlint --edit ${1}\" > .husky/commit-msg",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.25.1",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/types": "^19.0.3",
+    "commitlint": "^19.4.0",
+    "eslint": "9.5.0",
+    "eslint-plugin-format": "^0.1.2",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.9",
+    "unbuild": "^2.0.0"
+  },
+  "lint-staged": {
+    "**/*.{ts,js,mjs,mts,vue,html,json,yml,yaml}": [
+      "pnpm lint:fix"
+    ]
+  }
+}
