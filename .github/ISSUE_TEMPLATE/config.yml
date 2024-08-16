@@ -2,9 +2,9 @@ blank_issues_enabled: false
 
 contact_links:
   - name: Community Discussions
-    url: https://github.com/vuela-team/vuela/discussions
+    url: https://github.com/vuella/vuella/discussions
     about: Please ask and answer questions here.
 
-  - name: 📚 Vuela Documentation
-    url: https://github.com/vuela-team/vuela#readme
-    about: Check the documentation for usage of Vuela
+  - name: 📚 Vuella Documentation
+    url: https://github.com/vuella/vuella#readme
+    about: Check the documentation for usage of Vuella

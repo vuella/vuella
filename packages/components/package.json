@@ -1,10 +1,10 @@
 {
-  "name": "@vuela/components",
+  "name": "@vuella/components",
   "type": "module",
   "version": "1.0.0-rc.0",
   "description": "",
   "license": "MIT",
-  "repository": "vuela-team/vuela",
+  "repository": "vuella/vuella",
   "keywords": [],
   "sideEffects": false,
   "exports": {
