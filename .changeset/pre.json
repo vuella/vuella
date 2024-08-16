@@ -1,0 +1,9 @@
+{
+  "mode": "pre",
+  "tag": "rc",
+  "initialVersions": {
+    "@vuela/components": "1.0.0-rc.0",
+    "vuela": "1.0.0-rc.0"
+  },
+  "changesets": []
+}
